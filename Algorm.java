@@ -4,7 +4,7 @@ public class Algorm {
     public static void removeConsecutiveDuplicates(ArrayList<Integer> list) {
         for (int i = list.size() - 1; i > 0; i--) {
             if (list.get(i).equals(list.get(i - 1))) {
-                list.remove(i); //
+                list.remove(i); 
             }
         }
     }
@@ -33,7 +33,6 @@ public class Algorm {
         return true;
     }
     public static int findMaximum(ArrayList<Integer> list) {
-
         int maxNumber = list.get(0);
         for (int i = 1; i < list.size(); i++) {
             int currentNumber = list.get(i);
@@ -44,7 +43,6 @@ public class Algorm {
         return maxNumber;
     }
     public static int findMinimum(ArrayList<Integer> list) {
-
         int minNumber = list.get(0);
         for (int i = 1; i < list.size(); i++) {
             int currentNumber = list.get(i);
